@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" crossorigin href="/assets/index-BShsk0u5.css">
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="text-gray-600 dark:text-white bg-white dark:bg-gray-600 body-font sticky top-0 z-10">
+        <div class="flex md:justify-around items-center py-5">
+            <div class="flex">
+                <img src="/assets/logo-ChQx05ID.svg" alt="logo" class="w-[2.5rem]">
+                <p class="text-[1.7rem] pt-1 ms-2 font-medium">Landwind</p>
+            </div>
+            <div>
+                <ul class="md:flex hidden text-base font-medium">
+                    <li><a href="#home" class="px-4 hover:text-purple-700 capitalize">Home</a></li>
+                    <li><a href="#company" class="px-4 hover:text-purple-700 capitalize">company</a></li>
+                    <li><a href="#marketplace" class="px-4 hover:text-purple-700 capitalize">marketplace</a></li>
+                    <li><a href="#features" class="px-4 hover:text-purple-700 capitalize">features</a></li>
+                    <li><a href="#team" class="px-4 hover:text-purple-700 capitalize">team</a></li>
+                    <li><a href="#contact" class="px-4 hover:text-purple-700 capitalize">contact</a></li>
+                    <li><a href="#">
+                            <div class="flex">
+                                <div class="group relative cursor-pointer">
+                                    <div class="flex items-center justify-between bg-white px-4">
+                                        <a class="menu-hover  hover:text-purple-700" onClick="">
+                                            Projects
+                                        </a>
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="h-5 w-5 ms-2">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </span>
+                                    </div>
+
+                                    <div
+                                        class="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-1 px-4 text-gray-800 shadow-xl group-hover:visible">
+
+                                        <a
+                                            class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            Sunday
+                                        </a>
+
+                                        <a
+                                            class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            Monday
+                                        </a>
+
+                                        <a
+                                            class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            Tuesday
+                                        </a>
+
+                                        <a
+                                            class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            Wednesday
+                                        </a>
+
+                                        <a
+                                            class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            Thursday
+                                        </a>
+
+                                        <a
+                                            class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            Friday
+                                        </a>
+
+                                        <a
+                                            class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                                            Saturday
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="hidden lg:block">
+                <button
+                    class="bg-purple-700 hover:bg-purple-800 active:bg-red-300 focus:bg-purple-800 rounded-xl py-2 px-6 capitalize font-bold text-white"
+                    id="loginAlert">login</button>
+
+                <button
+                    class="bg-gray-500 hover:bg-gray-600 dark:bg-white dark:text-gray-400 rounded-xl py-2 px-6 capitalize font-bold text-white"
+                    id="toggle">mode</button>
+            </div>
+            <div class="block md:hidden ms-auto p-4 text-xl">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN ALL SECTIONS -->
+    <main>
+        <!-- HERO SECTION -->
+        <section class="block lg:flex items-center justify-between dark:bg-gray-500 dark:text-white lg:px-[5.5rem] px-4 py-10" id="home">
+            <div class="lg:w-[45%] w-full" data-aos="fade" data-aos-duration="1000">
+                <h2 class="xl:text-5xl text-3xl font-extrabold mb-8 capitalize">Building digital <br> products & brands.</h2>
+                <p class="text-xl text-gray-500 font-light w-[88%] dark:text-white">This free and open-source landing
+                    page template was
+                    built using the utility classes from Tailwind CSS and based on the components from the Flowbite
+                    Library and the Blocks System.</p>
+                <div class="pt-6">
+                    <button
+                        class="py-3 px-6 bg-transparent border-gray-200 border-[1px] rounded-lg capitalize font-medium hover:bg-gray-50 me-1 dark:hover:text-gray-500"><i
+                            class="fa-brands fa-github"></i> view on github</button>
+                    <button
+                        class="py-3 px-6 bg-transparent border-gray-200 border-[1px] rounded-lg capitalize font-medium hover:bg-gray-50 dark:hover:text-gray-500"><i
+                            class="fa-brands fa-figma"></i> get figma file</button>
+                </div>
+            </div>
+            <div class="lg:w-[45%] w-full" data-aos="fade" data-aos-duration="1000">
+                <img src="/assets/hero-BSU-FwbS.png" alt="hero image" class="w-full h-auto">
+            </div>
+        </section>
+
+        <!-- WORK SECTION 01-->
+        <section class="bg-gray-50 md:flex justify-evenly items-center pt-20 dark:bg-gray-500 dark:text-white"
+            id="company">
+            <div class="md:w-[40%] p-5 md:p-0" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="text-3xl font-extrabold capitalize mb-6">Work with tools you already use</h2>
+                <p class="text-xl text-gray-500 dark:text-white font-light">Deliver great service experiences fast -
+                    without the
+                    complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and
+                    deploy changes with ease.</p>
+                <hr class="my-6">
+                <ul>
+                    <li class=" font-medium"><i
+                            class="fa-regular fa-circle-check me-3 bg-purple-700 rounded-full text-white"></i>
+                        Continuous integration and deployment</li>
+                    <li class="my-5 font-medium"><i
+                            class="fa-regular fa-circle-check me-3 bg-purple-700 rounded-full text-white"></i>
+                        Development workflow</li>
+                    <li class=" font-medium"><i
+                            class="fa-regular fa-circle-check me-3 bg-purple-700 rounded-full text-white"></i> Knowledge
+                        management</li>
+                </ul>
+                <p class="text-xl text-gray-500 font-light mt-6">Deliver great service experiences fast - without the
+                    complexity of traditional ITSM solutions.</p>
+            </div>
+            <div class="md:w-2/5" data-aos="fade-left" data-aos-duration="1000">
+                <img src="/assets/work1-BJoefg3k.png" alt="work 1">
+            </div>
+        </section>
+
+        <!-- WORK SECTION 02-->
+        <section
+            class="bg-gray-50 flex justify-evenly items-center flex-col-reverse md:flex-row py-20 dark:bg-gray-500 dark:text-white">
+            <div class="md:w-[40%] p-5 md:p-0 order-2" data-aos="fade-left" data-aos-duration="1000">
+                <h2 class="text-3xl font-extrabold capitalize mb-6">We invest in the world’s potential</h2>
+                <p class="text-xl text-gray-500 dark:text-white font-light">Deliver great service experiences fast -
+                    without the
+                    complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and
+                    deploy changes with ease..</p>
+                <hr class="my-6">
+                <ul>
+                    <li class=" font-medium"><i
+                            class="fa-regular fa-circle-check me-3 bg-purple-700 rounded-full text-white"></i>
+                        Continuous integration and deployment</li>
+                    <li class="my-5 font-medium"><i
+                            class="fa-regular fa-circle-check me-3 bg-purple-700 rounded-full text-white"></i>
+                        Development workflow</li>
+                    <li class=" font-medium"><i
+                            class="fa-regular fa-circle-check me-3 bg-purple-700 rounded-full text-white"></i> Knowledge
+                        management</li>
+                </ul>
+                <p class="text-xl text-gray-500 font-light mt-6">Deliver great service experiences fast - without the
+                    complexity of traditional ITSM solutions.</p>
+            </div>
+
+            <div class="md:w-2/5 order-1" data-aos="fade-right" data-aos-duration="1000"> 
+                <img src="/assets/work2-C7lnoSnw.png" alt="work 2">
+            </div>
+        </section>
+
+        <!-- TRUST SECTION -->
+        <section class="md:flex block justify-center py-20" id="marketplace">
+            <div class="md:w-[40%] ps-8" data-aos="fade" data-aos-duration="1000">
+                <h5 class="text-lg font-medium text-purple-700">Trusted Worldwide</h5>
+                <h2 class="text-3xl font-extrabold mt-4">Trusted by over 600 million users and 10,000 teams</h2>
+                <p class="text-xl text-gray-500 font-light mt-4">Our rigorous security and compliance standards are at
+                    the
+                    heart of all we do. We work tirelessly to protect you and your customers.</p>
+                <hr class="my-8">
+
+                <a href="#" class="block text-purple-700 font-semibold hover:text-purple-900 text-lg">Explore Legality
+                    Guide <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                <a href="#" class="block text-purple-700 font-semibold hover:text-purple-900 mt-6 text-lg">Visit the
+                    Trust Center <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+
+            </div>
+            <div class="md:w-1/2 ps-7 mt-20 md:mt-0" data-aos="fade" data-aos-duration="1000">
+                <div class="flex md:justify-evenly sm:justify-around justify-between">
+                    <div class="w-[30%]">
+                        <i class="fa-solid fa-bars-progress text-purple-700 text-5xl"></i>
+                        <h3 class="text-2xl my-3">99.99% uptime</h3>
+                        <p class=" text-gray-500 font-light">For Landwind, with zero maintenance downtime</p>
+                    </div>
+                    <div class="w-[30%]">
+                        <i class="fa-solid fa-user-group text-purple-700 text-5xl"></i>
+                        <h3 class="text-2xl my-3">600M+ Users</h3>
+                        <p class=" text-gray-500 font-light">Trusted by over 600 milion users around the world</p>
+                    </div>
+                </div>
+                <div class="flex md:justify-evenly sm:justify-around justify-between mt-16">
+                    <div class="w-[30%]">
+                        <i class="fa-solid fa-earth-americas text-purple-700 text-5xl"></i>
+                        <h3 class="text-2xl my-3">100+ countries</h3>
+                        <p class=" text-gray-500 font-light">Have used Landwind to create functional websites</p>
+                    </div>
+                    <div class="w-[30%]">
+                        <i class="fa-solid fa-cart-shopping text-purple-700 text-5xl"></i>
+                        <h3 class="text-2xl my-3">5+ Million</h3>
+                        <p class=" text-gray-500 font-light">Transactions per day</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTOMONIAL SECTION -->
+        <section class="bg-gray-50 dark:bg-gray-500 dark:text-white px-4">
+            <div class="mx-auto md:w-1/2 w-full text-center py-24">
+                <i class="fa-solid fa-quote-left text-gray-400 dark:text-white text-5xl"></i>
+                <p class="text-2xl font-medium text-gray-900 my-7 dark:text-white">"Landwind is just awesome. It
+                    contains tons of
+                    predesigned components and pages starting from login screen to complex dashboard. Perfect choice for
+                    your next SaaS application."</p>
+                <div class="flex justify-center">
+                    <img src="/assets/user-k7ODY31_.png" alt="user image" class="w-6 h-6 rounded-full">
+                    <p class="font-medium text-gray-900 mx-4 dark:text-white">Micheal Gough</p>
+                    <p
+                        class="text-gray-900 font-light border-s-2 border-gray-900 dark:border-white dark:text-white ps-3">
+                        CEO at Google</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARD SECTION  -->
+        <section class="py-20" id="features">
+            <div class="text-center" data-aos="fade" data-aos-duration="1000">
+                <h2 class="text-3xl font-extrabold capitalize">Designed for business teams like yours</h2>
+                <p class="text-xl text-gray-500 font-light mt-4">Here at Landwind we focus on markets where technology,
+                    innovation, and capital can <br> unlock long-term value and drive economic growth.</p>
+            </div>
+
+            <div class="block md:flex justify-center mt-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="p-7 ">
+                    <div
+                        class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden dark:bg-gray-500 dark:text-white">
+                        <h2 class="text-lg tracking-widest title-font mb-1 font-bold text-center">STARTER</h2>
+                        <p class="text-center text-base text-gray-500 font-light dark:text-white">Best option for
+                            personal use & for
+                            your next project.</p>
+                        <h1
+                            class="text-4xl text-gray-900 dark:text-white pb-4 mb-4 border-b border-gray-200 leading-none text-center font-extrabold mt-4">
+                            $29</h1>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Individual configuration
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>No setup, or hidden fees
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Team size: 1 developer
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Premium support: 6 months
+                        </p>
+
+                        <button
+                            class="flex items-center justify-center mt-5 text-white bg-purple-700 border-0 py-2 px-4 w-full focus:outline-none hover:bg-purple-800 rounded">Get
+                            Started
+                        </button>
+                    </div>
+                </div>
+                <div class="p-7 ">
+                    <div
+                        class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden dark:bg-gray-500 dark:text-white">
+                        <h2 class="text-lg tracking-widest title-font mb-1 font-bold text-center">STARTER</h2>
+                        <p class="text-center text-base text-gray-500 font-light dark:text-white">Best option for
+                            personal use & for
+                            your next project.</p>
+                        <h1
+                            class="text-4xl text-gray-900 dark:text-white pb-4 mb-4 border-b border-gray-200 leading-none text-center font-extrabold mt-4">
+                            $29</h1>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Individual configuration
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>No setup, or hidden fees
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Team size: 1 developer
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Premium support: 6 months
+                        </p>
+
+                        <button
+                            class="flex items-center justify-center mt-5 text-white bg-purple-700 border-0 py-2 px-4 w-full focus:outline-none hover:bg-purple-800 rounded">Get
+                            Started
+                        </button>
+                    </div>
+                </div>
+                <div class="p-7 ">
+                    <div
+                        class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden dark:bg-gray-500 dark:text-white">
+                        <h2 class="text-lg tracking-widest title-font mb-1 font-bold text-center">STARTER</h2>
+                        <p class="text-center text-base text-gray-500 font-light dark:text-white">Best option for
+                            personal use & for
+                            your next project.</p>
+                        <h1
+                            class="text-4xl text-gray-900 dark:text-white pb-4 mb-4 border-b border-gray-200 leading-none text-center font-extrabold mt-4">
+                            $29</h1>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Individual configuration
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>No setup, or hidden fees
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Team size: 1 developer
+                        </p>
+                        <p class="flex items-center mb-2 text-sm tracking-wider mt-3">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-6 h-6 text-green-500" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Premium support: 6 months
+                        </p>
+
+                        <button
+                            class="flex items-center justify-center mt-5 text-white bg-purple-700 border-0 py-2 px-4 w-full focus:outline-none hover:bg-purple-800 rounded">Get
+                            Started
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACCORDION SECTION -->
+        <section class="mb-20 px-4" id="team">
+            <h2 class="text-3xl font-extrabold text-center mb-12">Frequently asked questions</h2>
+
+            <div id="accordion-collapse" data-accordion="collapse" class="md:w-[60%] w-full mx-auto">
+                <h2 id="accordion-collapse-heading-1">
+                    <button type="button"
+                        class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500  border-b-2  rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-500 dark:border-gray-500 dark:text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-500 dark:hover:text-white gap-3"
+                        data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
+                        aria-controls="accordion-collapse-body-1">
+                        <span>Can I use Landwind in open-source projects?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+                    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of
+                            interactive components built on top of Tailwind CSS including buttons, dropdowns, modals,
+                            navbars, and more.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
+                                href="/docs/getting-started/introduction/"
+                                class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start
+                            developing websites even faster with components on top of Tailwind CSS.</p>
+                    </div>
+                </div>
+                <h2 id="accordion-collapse-heading-2">
+                    <button type="button"
+                        class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500  border-b-2  rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-500 dark:border-gray-500 dark:text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-500 dark:hover:text-white gap-3"
+                        data-accordion-target="#accordion-collapse-body-2" aria-expanded="true"
+                        aria-controls="accordion-collapse-body-1">
+                        <span>Is there a Figma file available?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+                    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed
+                            using the Figma software so everything you see in the library has a design equivalent in our
+                            Figma file.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/"
+                                class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based
+                            on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                    </div>
+                </div>
+                <h2 id="accordion-collapse-heading-3">
+                    <button type="button"
+                        class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500  border-b-2  rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-500 dark:border-gray-500 dark:text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-500 dark:hover:text-white gap-3"
+                        data-accordion-target="#accordion-collapse-body-3" aria-expanded="true"
+                        aria-controls="accordion-collapse-body-1">
+                        <span>What are the differences between Landwind and Tailwind UI?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components
+                            from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product.
+                            Another difference is that Flowbite relies on smaller and standalone components, whereas
+                            Tailwind UI offers sections of pages.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both
+                            Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you
+                            from using the best of two worlds.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                        <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+                            <li><a href="https://flowbite.com/pro/"
+                                    class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+                            <li><a href="https://tailwindui.com/" rel="nofollow"
+                                    class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h2 id="accordion-collapse-heading-4">
+                    <button type="button"
+                        class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500  border-b-2  rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-500 dark:border-gray-500 dark:text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-500 dark:hover:text-white gap-3"
+                        data-accordion-target="#accordion-collapse-body-4" aria-expanded="true"
+                        aria-controls="accordion-collapse-body-4">
+                        <span>What about browser support?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components
+                            from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product.
+                            Another difference is that Flowbite relies on smaller and standalone components, whereas
+                            Tailwind UI offers sections of pages.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both
+                            Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you
+                            from using the best of two worlds.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                        <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+                            <li><a href="https://flowbite.com/pro/"
+                                    class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+                            <li><a href="https://tailwindui.com/" rel="nofollow"
+                                    class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FREE TRIAL SECTION -->
+        <section class="bg-gray-50 text-center py-20" data-aos="fade" data-aos-duration="1000">
+            <h2 class="text-3xl font-extrabold capitalize">Start your free trial today</h2>
+            <p class="text-xl text-gray-500 font-light my-5 dark:text-white">Try Landwind Platform for 30 days. No
+                credit card required.
+            </p>
+            <button
+                class="bg-purple-700 hover:bg-purple-900 rounded-lg py-2 px-6 capitalize font-medium text-white">Free
+                Trial For 30 Days</button>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="dark:bg-gray-500 dark:text-white" id="contact">
+        <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 md:gap-y-16 gap-y-5 py-20">
+            <div class="text-center mb-10 md:mb-0">
+                <h5 class="text-base font-bold">COMPANY</h5>
+                <ul class="text-gray-500 dark:text-white text-sm mt-5">
+                    <li class="mt-3">About</li>
+                    <li class="mt-3">Careers</li>
+                    <li class="mt-3">Brand Center</li>
+                    <li class="mt-3">Blog</li>
+                </ul>
+            </div>
+            <div class="text-center mb-10 md:mb-0">
+                <h5 class="text-base font-bold">HELP CENTER</h5>
+                <ul class="text-gray-500 dark:text-white text-sm mt-5">
+                    <li class="mt-3">About</li>
+                    <li class="mt-3">Careers</li>
+                    <li class="mt-3">Brand Center</li>
+                    <li class="mt-3">Blog</li>
+                </ul>
+            </div>
+            <div class="text-center mb-10 md:mb-0">
+                <h5 class="text-base font-bold">COMPANY</h5>
+                <ul class="text-gray-500 dark:text-white text-sm mt-5">
+                    <li class="mt-3">About</li>
+                    <li class="mt-3">Careers</li>
+                    <li class="mt-3">Brand Center</li>
+                    <li class="mt-3">Blog</li>
+                </ul>
+            </div>
+            <div class="text-center mb-10 md:mb-0">
+                <h5 class="text-base font-bold">LEGAL</h5>
+                <ul class="text-gray-500 dark:text-white text-sm mt-5">
+                    <li class="mt-3">About</li>
+                    <li class="mt-3">Careers</li>
+                    <li class="mt-3">Brand Center</li>
+                    <li class="mt-3">Blog</li>
+                </ul>
+            </div>
+            <div class="text-center mb-10 md:mb-0">
+                <h5 class="text-base font-bold">DOWNLOADS</h5>
+                <ul class="text-gray-500 dark:text-white text-sm mt-5">
+                    <li class="mt-3">About</li>
+                    <li class="mt-3">Careers</li>
+                    <li class="mt-3">Brand Center</li>
+                    <li class="mt-3">Blog</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="mt-[-3rem] w-full">
+        <div class="text-center py-10 dark:bg-gray-500 dark:text-white">
+            <div class="flex font-semibold justify-center">
+                <img src="/assets/logo-ChQx05ID.svg" alt="logo" class="w-8 h-8"><span class="pt-1"> Landwind</span>
+            </div>
+            <p class="my-2">© 2024-2025 Landwind™. All Rights Reserved. Built with Flowbite and Tailwind CSS.</p>
+            <div>
+                <i class="fa-brands fa-facebook mx-2"></i>
+                <i class="fa-brands fa-instagram mx-2"></i>
+                <i class="fa-brands fa-twitter mx-2"></i>
+                <i class="fa-brands fa-github mx-2"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
